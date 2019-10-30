@@ -144,10 +144,21 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
-
-
+ul.submenu{
+   display:none;
+}
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover{
+   display:block;
+}
 
 
 /* New Styles Added Below */
 
+/*
+===================================================================
+mobile styles: 481px and greater 
+====================================================================
+*/
 
+@media only screen and (min-width:769px){
+}
